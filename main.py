@@ -42,7 +42,7 @@ else:
     # --- 4. SUCCESS STATE ---
     st.balloons()
     st.success("## 🎊 You save Teus! Congratulations!")
-    st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJqZ3R5Z3R5Z3R5Z3R5Z3R5Z3R5Z3R5Z3R5Z3R5Z3R5JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKSjPqcKUIwUSt2/giphy.gif") # Optional space gif
+    st.image("https://admision.tec.mx/talentoemprendedor/img/teus.webp") # Optional space gif
     
     if st.button("Reset Mission"):
         st.session_state.saved = False
